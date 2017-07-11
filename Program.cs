@@ -6,7 +6,9 @@ namespace Advanced_C_
     {
         static void Main(string[] args)
         {
-           
+           // Exceptio Handle will excucute when Error will Come
+           ExceptionHandling EH = new ExceptionHandling();
+           EH.Addition();
         }
     }
 }
